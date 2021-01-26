@@ -1,25 +1,13 @@
-import { BackgroundImage, QuizContainer, Widget } from "./styles";
-import Footer from ".././Footer";
-// import Background from ".././QuizBackground";
-export default function backgroundImage() {
-  return (
-    <BackgroundImage>
-      <QuizContainer>
-        <Widget>
-          <Widget.Header>
-            <h1>QUIZ</h1>
-          </Widget.Header>
-          <Widget.Content>
-            <p> lorem ipsum dolor sit amet</p>
-          </Widget.Content>
-        </Widget>
-        <Widget></Widget>
-        <Widget>
-          <h1>Quiz da Galera</h1>
-          <p>lorem ipsum dolor sit amet</p>
-        </Widget>
-      </QuizContainer>
-      <Footer />
-    </BackgroundImage>
-  );
+import { Widget, Header, Content } from "./styles.js";
+
+export default function WidgetRender({ children, ...props }) {
+  return <Widget {...props}>{children}</Widget>;
 }
+
+WidgetRender.Header = function WidgetHeader({ children, ...props }) {
+  return <Header {...props}>{children}</Header>;
+};
+
+WidgetRender.Content = function WidgetContent({ children, ...props }) {
+  return <Content {...props}>{children}</Content>;
+};

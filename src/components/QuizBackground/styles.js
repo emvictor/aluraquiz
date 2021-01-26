@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
-const QuizBackground = styled.div`
-  width: 100%;
+export const QuizBackground = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   background-image: url(${({ backgroundImage }) => backgroundImage});

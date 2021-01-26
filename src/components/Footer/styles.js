@@ -3,10 +3,11 @@ import db from "../../../db.json";
 
 export const FooterWrapper = styled.footer`
   background-color: rgba(0, 0, 0, 0.2);
-  padding: 20px;
+  color: white;
+  padding: 27.5px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   border-radius: 4px;
   img {
     width: 58px;

@@ -1,7 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import { QuizLogo } from "./styles.js";
-import styled from "styled-components";
 
 export default function Logo({ className }) {
   return (
@@ -83,11 +81,3 @@ export default function Logo({ className }) {
 Logo.propTypes = {
   className: PropTypes.string.isRequired,
 };
-
-export const QuizLogo = styled(Logo)`
-  margin: auto;
-  display: block;
-  @media screen and (max-width: 500px) {
-    margin: 0;
-  }
-`;

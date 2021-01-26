@@ -1,7 +1,7 @@
 {
-  "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-  "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "bg": "https://lh3.googleusercontent.com/proxy/CyAeGvTbU8sD_EXHkMUpCfHOhAqqnOM2VsWZXXnD7nT-7wU4WSvJvGIrUe_SZKE6Ko88GkPePX0VRc74yk7fkKoRzACIDndouA5X_aR_YsJ6jOHUpmP77FDXCSFKPgFxe2cwxHZ-CH2XTJyljo2QEn7b=s0-d",
+  "title": "Quiz CS",
+  "description": "Teste os seus conhecimentos em CS e veja quantos HS você é capaz de dar",
   "questions": [
     {
       "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
@@ -24,9 +24,9 @@
   "external": [""],
   "theme": {
     "colors": {
-      "primary": "#6a1b9a",
-      "secondary": "#bf360c",
-      "mainBg": "#171B35",
+      "primary": "#b26a00",
+      "secondary": "#b26500",
+      "mainBg": "#ffac3388",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
       "success": "#4CAF50"
