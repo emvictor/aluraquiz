@@ -1,10 +1,11 @@
-import styled from 'styled-components'
+import Widget from "../src/components/Widget";
+// import Footer from "../src/components/Footer";
+// import GitHubCorner from "../src/components/GitHubCorner";
 
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`
-
-export default function Home() {
-  return <Title>My page</Title>
+export default function Render() {
+  return (
+    <>
+      <Widget />
+    </>
+  );
 }
